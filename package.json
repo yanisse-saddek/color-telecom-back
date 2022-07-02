@@ -6,6 +6,6 @@
     "mysql": "^2.18.1"
   },
   "scripts": {
-    "start": "nodemon"
+    "start": "node index.js"
   }
 }
