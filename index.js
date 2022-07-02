@@ -53,4 +53,4 @@ app.put('/openings', (req, res)=>{
         // console.log("1 record inserted");  
     }); 
 })
-app.listen(process.env.PORT)
+app.listen(process.env.PORT || 3002)
